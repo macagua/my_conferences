@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<odoo>
+  <record id="view_tree_myconferences" model="ir.ui.view">
+      <field name="name">Conferences Tree</field>
+      <field name="model">myconferences.conference</field>
+      <field name="arch" type="xml">
+          <tree>
+              <field name="confname"/>
+              <field name="startdate"/>
+              <field name="enddate"/>
+              <field name="fee"/>
+          </tree>
+      </field>
+  </record>
+</odoo>

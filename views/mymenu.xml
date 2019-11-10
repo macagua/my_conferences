@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<odoo>
+    <act_window id="action_myconference"
+                name="Manage Conferences"
+                res_model="myconferences.conference"
+                view_mode="tree,form" />
+
+    <menuitem id="menu_myconference"
+              name="Manage Conferences"
+              action="action_myconference" />
+</odoo>

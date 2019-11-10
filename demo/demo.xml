@@ -1,0 +1,44 @@
+<odoo>
+    <data>
+        <!--  -->
+        <record id="conference0" model="myconferences.conference">
+            <field name="confname">PloneConf 2019</field>
+            <field name="indexed">True</field>
+            <field name="startdate" eval="time.strftime('%Y-%m-%d')"/>
+            <field name="enddate" eval="time.strftime('%Y-%m-%d')"/>
+            <field name="fee" eval="76.0"/>
+        </record>
+        <!--  -->
+        <record id="conference1" model="myconferences.conference">
+            <field name="confname">PloneConf 2020</field>
+            <field name="indexed">True</field>
+            <field name="startdate" eval="time.strftime('%Y-%m-%d')" />
+            <field name="enddate" eval="time.strftime('%Y-%m-%d')" />
+            <field name="fee">96.0</field>
+        </record>
+        <!--  -->
+        <record id="conference2" model="myconferences.conference">
+            <field name="confname">PyConf US 2020</field>
+            <field name="indexed">True</field>
+            <field name="startdate" eval="time.strftime('%Y-%m-%d')" />
+            <field name="enddate" eval="time.strftime('%Y-%m-%d')" />
+            <field name="fee">196.0</field>
+        </record>
+        <!--  -->
+        <record id="conference3" model="myconferences.conference">
+            <field name="confname">DjangoConf 2020</field>
+            <field name="indexed">True</field>
+            <field name="startdate" eval="time.strftime('%Y-%m-%d')" />
+            <field name="enddate" eval="time.strftime('%Y-%m-%d')" />
+            <field name="fee">300.0</field>
+        </record>
+        <!--  -->
+        <record id="conference4" model="myconferences.conference">
+            <field name="confname">FlaskConf 2020</field>
+            <field name="indexed">True</field>
+            <field name="startdate" eval="time.strftime('%Y-%m-%d')" />
+            <field name="enddate" eval="time.strftime('%Y-%m-%d')" />
+            <field name="fee">250.0</field>
+        </record>
+    </data>
+</odoo>
