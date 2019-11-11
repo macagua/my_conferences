@@ -13,6 +13,7 @@ This Odoo module let you manage:
 
 - manage conferences.
 
+
 Dependencies
 ------------
 
@@ -20,11 +21,6 @@ This module requires the following dependencies:
 
 - odoo 13 > https://github.com/odoo/odoo
 
-  Download it the source code:
-
-  ```
-  $ git clone https://www.github.com/odoo/odoo --depth 1 --branch 13.0 --single-branch odoo13x
-  ```
 
 Install
 -------
@@ -48,6 +44,7 @@ Restart the Odoo instance server, login and got to **Apps** > **My conferences**
 Then go to Main menu at left top corner and click to **Manage Conferences**.
 
 ![Access 'Manage Conferences' Menu](https://raw.githubusercontent.com/macagua/my_conferences/master/static/description/manage_conferences.png "Access 'Manage Conferences' Menu")
+
 
 References
 ----------
