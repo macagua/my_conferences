@@ -6,7 +6,10 @@
 My conferences
 --------------
 
-My conferences, is a Odoo 13 module that let you manage:
+My conferences, is an Odoo 13 module to ease the management of conferences, 
+you can manage registration of guests as well as resources.
+
+This Odoo module let you manage:
 
 - manage conferences.
 
