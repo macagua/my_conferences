@@ -40,7 +40,11 @@ $ mv my_conferences /full/path/to/extra-addons/
 
 Restart the Odoo instance server, login and got to **Apps** > **My conferences** > **Install**
 
+![Install 'My conferences' Module](./static/description/install_module.png "Install 'My conferences' Module")
+
 Then go to Main menu at left top corner and click to **Manage Conferences**.
+
+![Access 'Manage Conferences' Menu](./static/description/manage_conferences.png "Access 'Manage Conferences' Menu")
 
 References
 ----------
