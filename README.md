@@ -28,7 +28,7 @@ Install
 Download the source code:
 
 ```
-$ git clone https://github.com/macagua/my_conferences.git my_conferences
+$ git clone https://github.com/macagua/my_conferences.git
 ```
 
 Move ``my_conferences`` folder into ``extra-addons`` Odoo directory:
