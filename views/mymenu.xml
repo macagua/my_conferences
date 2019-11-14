@@ -1,10 +1,15 @@
 <?xml version="1.0"?>
 <odoo>
+
+    <!-- conferences action window -->
     <act_window id="action_myconference"
                 name="Manage Conferences"
                 res_model="myconferences.conference"
                 view_mode="tree,form" />
 
+    <!-- conferences menu -->
+    <!-- This Menu Item will show at the main menu
+         and using the 'action_myconference' action. -->
     <menuitem id="menu_myconference"
               name="Manage Conferences"
               action="action_myconference" />
