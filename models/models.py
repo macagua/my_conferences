@@ -3,8 +3,10 @@
 from odoo import models, fields
 
 class conference(models.Model):
+    # the model name (in dot-notation, module namespace)
     _name = 'myconferences.conference'
-    _description = 'a model for a conference'
+    # the model's informal name
+    _description = 'Conferences'
 
     confname = fields.Char('Conference Name', required=True)
     indexed = fields.Boolean('Indexed?', required=True)
