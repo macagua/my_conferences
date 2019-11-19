@@ -90,6 +90,8 @@ This Odoo 13 module include the follow technical features included:
 
 - Data demonstration support.
 
+- Internationalisation (i18n) support.
+
 - Tests units support.
 
 - ACL and security rules customs support.
