@@ -2,7 +2,8 @@
 
 from odoo import models, fields
 
-class conference(models.Model):
+
+class Conference(models.Model):
     # the model name (in dot-notation, module namespace)
     _name = 'myconferences.conference'
     # the model's informal name
@@ -13,3 +14,4 @@ class conference(models.Model):
     startdate = fields.Date('Start Date', required=True)
     enddate = fields.Date('End Date', required=True)
     fee = fields.Float('Registration Fee', required=True)
+

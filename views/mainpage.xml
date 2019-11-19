@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <odoo>
-    <!-- laboratorios tree view -->
+    <!-- conference tree view -->
     <record id="view_tree_myconferences" model="ir.ui.view">
         <field name="name">Conferences Tree</field>
         <field name="model">myconferences.conference</field>
@@ -14,3 +14,4 @@
         </field>
     </record>
 </odoo>
+

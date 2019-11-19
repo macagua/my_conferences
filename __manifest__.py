@@ -36,3 +36,4 @@
     ],
     'images': ['static/description/icon.png'],
 }
+
