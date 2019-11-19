@@ -125,7 +125,16 @@ Then go to Main menu at left top corner and click to **Manage Conferences** and 
 
     Access to 'Manage Conferences' Menu
 
-Then go to Main menu at left top corner and click to **Manage Conferences**.
+
+Testing
+=======
+
+For run the module tests, with the following command:
+
+::
+
+    $ /full/path/to/odoo-bin --addons-path=/full/path/to/addons,/full/path/to/extra-addons \
+      -d t -i my_conferences --test-enable --stop-after-init --log-level=test
 
 
 Contribute
