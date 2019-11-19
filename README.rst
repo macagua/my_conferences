@@ -82,6 +82,19 @@ This Odoo module let you manage:
 
 - manage conferences.
 
+
+Features
+========
+
+This Odoo 13 module include the follow technical features included:
+
+- Data demonstration support.
+
+- Tests units support.
+
+- ACL and security rules customs support.
+
+
 Dependencies
 ============
 
