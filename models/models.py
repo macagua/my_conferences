@@ -9,9 +9,9 @@ class Conference(models.Model):
     # the model's informal name
     _description = 'Conferences'
 
-    confname = fields.Char('Conference Name', required=True)
+    name = fields.Char('Conference Name', required=True)
     indexed = fields.Boolean('Indexed?', required=True)
-    startdate = fields.Date('Start Date', required=True)
-    enddate = fields.Date('End Date', required=True)
+    start_date = fields.Date('Start Date', required=True)
+    end_date = fields.Date('End Date', required=True)
     fee = fields.Float('Registration Fee', required=True)
 

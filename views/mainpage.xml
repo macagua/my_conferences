@@ -6,9 +6,9 @@
         <field name="model">myconferences.conference</field>
         <field name="arch" type="xml">
             <tree string="Conferences">
-                <field name="confname"/>
-                <field name="startdate"/>
-                <field name="enddate"/>
+                <field name="name"/>
+                <field name="start_date"/>
+                <field name="end_date"/>
                 <field name="fee"/>
             </tree>
         </field>
