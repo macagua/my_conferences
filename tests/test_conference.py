@@ -53,5 +53,4 @@ class TestConference(common.TransactionCase):
         self.assertEqual(self.conference3.name, 'Odoo Experience 2020')
         _logger.info('Created the {0} Conference!'.format(self.conference3.name))
 
-        # Do a little print to show it visually for this demo - in production you don't really need this.
         _logger.info("Your 'TestConference' test was successful!")
